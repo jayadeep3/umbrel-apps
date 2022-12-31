@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: tallycoin-connect
+category: Finance
+name: Tallycoin Connect
+version: "1.7.5"
+tagline: Crowdfund donations directly to your Umbrel node with Tallycoin.
+description: Tallycoin is a crowdfunding platform with bitcoin and lightning donations. Together with the Tallycoin Connect app, you can receive donations directly to your Umbrel node. Zero fees!
+developer: djbooth007
+website: https://tallycoin.app/connect/
+dependencies:
+  - lightning
+repo: https://github.com/djbooth007/tallycoin_connect
+support: https://github.com/djbooth007/tallycoin_connect/issues
+port: 8123
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+deterministicPassword: true
+releaseNotes: >-
+  Added: On-chain wallet fallback (server-side) in case node is offline.
+submitter: d11n
+submission: https://github.com/getumbrel/umbrel/pull/1052

@@ -1,0 +1,3 @@
+# samourai-server whirlpool Hidden Service
+HiddenServiceDir /data/app-$APP_ID-whirlpool
+HiddenServicePort 80 samourai-server_whirlpool_1:8898
